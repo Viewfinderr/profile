@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+  background-color: rgb(98, 130, 162);
+  color: white;
+  font-family: 'Raleway', sans-serif;;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 44px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.blue-button{
+  background-color:white ;
+  color:rgb(150, 172, 195);
+  border-radius: 4px;
+  padding: 16px 24px;
+  border: 1px solid lightgrey;
+}
+
+.blue-button:hover {
+  color: white;
+  border: 1px solid rgb(229, 16, 101);
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card-white {
+  background-color: rgb(150, 172, 195);
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  padding: 36px;
+  width: 700px;
+  margin: 24px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+#footer a {
+  font-size: 48px;
+}
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card-white {
+    width: 300px;
+  }
+}
